@@ -10,7 +10,7 @@ public class prg {
 
 		WebDriver driver = new ChromeDriver();
 	driver.get("https://www.facebook.com/");
-
+	driver.manage().window().maximize();
 	}
 
 }
